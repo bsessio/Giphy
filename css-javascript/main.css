@@ -1,0 +1,90 @@
+html {
+    background-image: url('../images/bg-dark.jpg');
+    background-repeat: round;
+}
+
+body,button,input {
+    font-family: 'Cinzel', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+    color: white;
+}
+
+input {
+    background-color: black;
+    margin-bottom: 1vw;
+}
+
+p {
+    text-shadow: .1vw .1vw .1vw black;
+    text-align: center;
+    width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-size: 1vw;
+    font-weight: bolder;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    color: white;
+    background-color: black;
+    font-size: 1vw;
+    padding: .5vw;
+    margin: .25vw;
+}
+
+#newSubmit {
+    font-family: 'Cinzel', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+}
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 80%;
+    text-align: center;
+}
+
+.button-maker {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.images {
+    width: 90%;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spnDiv {
+    display: inline-block;
+    position: relative;
+    margin: 1vw;
+    text-align: center;
+}
+
+.rating {
+    text-transform: uppercase;
+}
+
+.logoGif {
+    margin-top: 10%;
+    border: .1vw ridge white;
+    filter: grayscale();
+}
+
+.logoGif:hover {
+    filter: none;
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
